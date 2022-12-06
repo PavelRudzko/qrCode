@@ -1,0 +1,80 @@
+<html>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+            font-family: 'Outfit',sans-serif;
+        }
+       /* .{ box-sizing:border-box}
+               FIXME SOME MISTAKE */        
+             
+
+
+      .qrRiseWideBox {
+        background-color: hsl(224, 45%, 89%);
+        min-height: 100vh;
+        padding: 222px 72px 0;
+      }
+      .qrNarrowBox{
+       
+        padding: 42px 42px 104px 42px;
+        background-color: hsl(0,0%,100%);
+        border-radius: 52px;
+        max-width: 230;
+        
+      }
+      .qrImage{
+        width: 100%;
+        height: auto;
+        border-radius: 24px;
+      }
+      .qrDeskription h3{
+        text-align: center;
+        font-size: 48px;
+        margin: 64px 0 10px;
+        font-weight: 700;
+
+      }
+      .qrDeskription p{
+        font-weight: 400;
+        text-align: center;
+        font-size: 15.5 ;
+        margin: 40px 0 0 0;
+      }
+
+      @media  (min-width: 426px){
+
+      .qrNarrowBox{
+        max-width: 320px;
+      }
+        
+      }
+
+
+    </style>
+    <body>     
+    
+
+    <div class="qrScreen">
+      <div class="qrRiseWideBox">
+        <div class="qrNarrowBox">
+          <img class = "qrImage" src="image-qr-code.png" />
+          <div class="qrDeskription">
+            <h3>Improve your front-end skills by building projects</h3>
+            <p>
+              Scan the QR code to visit Front</br>
+              Mentor and take your codding to</br>
+              the next lavel
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
